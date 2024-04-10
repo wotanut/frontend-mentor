@@ -11,6 +11,9 @@
         .boundary {
             display: inline-flex;
             gap: 10px;
+            animation-name: rotate;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
         }
         .square {
             height: 10px;
@@ -28,6 +31,16 @@
         .square-4 {
             background-color: orange;
         }
+      
+        @keyframes rotate {
+          0% {rotate: 0deg;}
+          25% {rotate: 90deg; gap:0px;}
+          50% {rotate: 180deg; gap: 10px;}
+          75% {rotate: 270deg; gap: 0px;}
+          100% {rotate: 360deg; gap: 10px;}
+        }
+  
+
     </style>
 </head>
 
