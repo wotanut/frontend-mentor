@@ -10,8 +10,10 @@
         }
         .boundary {
             display: grid;
-            grid-template-rows: repeat(3,10px);
-            grid-template-columns: repeat(3,10px);
+            height: 30px;
+            width: shrink;
+            grid-template-rows: repeat(2,10px);
+            grid-template-columns: repeat(2,10px);
             gap: 10px;
             animation-name: rotate;
             animation-duration: 4s;
@@ -26,22 +28,15 @@
         }
         .square-1 {
             background-color: red;
-            grid-column-start: 2;
         }
         .square-2 {
             background-color: green;
-            grid-row-start: 2;
-            grid-column-start: 1;
         }
         .square-3 {
             background-color: blue;
-            grid-row-start: 2;
-            grid-column-start: 3;
         }
         .square-4 {
             background-color: orange;
-            grid-row-start: 3;
-            grid-column-start: 2;
         }
       
         @keyframes rotate {
