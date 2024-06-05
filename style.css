@@ -58,15 +58,17 @@ img {
 .grid{
     display: grid;
     gap: 1.5rem;
-    grid-template-columns: repeat(4,1fr);
+
+    grid-template-areas:
+        'one'
+        'two'
+        'three'
+        'four'
+        'five';
 
     padding-block: 2rem;
     width: min(95%, 70rem);
     margin-inline: auto;
-}
-
-.grid-col-span-2 {
-    grid-column: span 2; 
 }
 
 .grid-item{
@@ -81,20 +83,59 @@ img {
     background-image: url(images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
     background-position: top right 10%;
+    grid-area: one;
 }
 
 .item-2 {
     background-color: var(--clr-secondary-400);
+    grid-area: two;
 }
 
 .item-3 {
     background-color: var(--clr-neutral-100);
+    grid-area: three;
 }
 
 .item-4 {
     background-color: var(--clr-secondary-500);
+    grid-area: four;
 }
 
 .item-5 {
     background-color: var(--clr-neutral-100);
+    grid-area: five;
+}
+
+/* Meidia Queries */
+
+@media (min-width: 30em) {
+    .grid{
+        grid-template-areas: 
+        'one one'
+        'two five'
+        'three five'
+        'four four';
+    }
+}
+
+@media (min-width: 50em) {
+    .grid{
+        grid-template-areas: 
+        'one one two five'
+        'three four four five';
+    }
+
+    /* .grid-col-span-2 {
+        grid-column: span 2; 
+    }    
+
+    .grid-item:last-child{
+        grid-column-start: 4;
+        grid-row: 1 / span 2;
+    }
+
+    .grid {
+        grid-template-columns: repeat(4,1fr);
+    
+    } */
 }
