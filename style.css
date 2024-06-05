@@ -55,11 +55,25 @@ img {
     line-height: 1;
 }
 
+.grid{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4,1fr);
+
+    padding-block: 2rem;
+    width: min(95%, 70rem);
+    margin-inline: auto;
+}
+
+.grid-col-span-2 {
+    grid-column: span 2; 
+}
+
 .grid-item{
     padding: 2rem;
     border-radius: 0.5rem;
     font-size: var(--fs-400);
-    box-shadow: 2.5rem 3.75ewm 3rem 03rem hsl(var(--clr-secondary-400) / 0.25);
+    box-shadow: 2.5rem 3.75rem 3rem 03rem (hsl(var(--clr-secondary-400)/0.25));
 }
 
 .item-1 {
