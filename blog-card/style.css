@@ -10,6 +10,8 @@
   --gray-950: hsl(0, 0%, 7%);
 
   font-family: Figtree;
+
+  --rounded: 20px;
 }
 
 body,
@@ -23,6 +25,7 @@ html {
 }
 
 .card {
+  border-radius: var(--rounded);
   border: solid black 1px;
   align-items: start;
   font-weight: 800;
@@ -31,6 +34,10 @@ html {
   display: flex;
   flex-direction: column;
   padding: 20px;
+}
+
+.image{
+  border-radius: var(--rounded);
 }
 
 .date,
