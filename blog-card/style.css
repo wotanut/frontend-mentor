@@ -31,11 +31,20 @@ html {
   flex-direction: column;
   padding: 20px;
 }
-.date, .desc{
+
+.date,
+.desc {
   font-weight: 500;
 }
+
 .tag {
   background-color: var(--yellow);
   padding: 10px;
   border-radius: 5px;
+}
+
+.bottom {
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
