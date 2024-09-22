@@ -24,6 +24,11 @@ html {
   justify-content: center;
 }
 
+.title {
+  padding: 0;
+  margin: 0
+}
+
 .card {
   border-radius: var(--rounded);
   border: solid black 1px;
@@ -33,7 +38,7 @@ html {
   background-color: var(--white);
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 10px;
 }
 
 .image{
@@ -61,6 +66,7 @@ html {
 .tag {
   background-color: var(--yellow);
   padding: 10px;
+  margin-top: 20px;
   border-radius: 5px;
 }
 
