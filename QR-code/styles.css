@@ -18,6 +18,7 @@ html,
 body {
   margin: 0;
   height: 100%;
+  background-color: var(--slate-300) ;
 }
 
 body {
@@ -32,18 +33,27 @@ body {
 
 h1 {
   font-weight: 700;
+  color: var(--slate-900);
 }
 
 p {
   font-weight: 400;
+  color: var(--slate-500);
 }
 
 .card {
+  width: 420px;
   display: flex;
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 20px;
   flex-direction: column;
   align-items: center;
+  text-wrap: wrap;
+  text-align: center;
 }
 
 .QR {
   border-radius: var(--radius);
+  height: 400px;
 }
