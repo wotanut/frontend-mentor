@@ -50,10 +50,6 @@ html {
   font-weight: 500;
 }
 
-* {
-  border: 1px solid red;
-}
-
 .date {
   color: var(--grey-950);
 }
