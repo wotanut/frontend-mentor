@@ -1,6 +1,6 @@
 @font-face {
   font-family: Outfit;
-  src: url('<https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+  src: url("<https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 }
 
 @root {
@@ -9,7 +9,7 @@
   --slate-500: hsl(216, 15%, 48%);
   --salte-900: hsl(218, 44%, 22%);
 
-  font-family: Outfit
+  font-family: Outfit;
 }
 
 h1 {
