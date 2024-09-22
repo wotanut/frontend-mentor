@@ -23,6 +23,7 @@ html {
 }
 
 .card {
+  border: solid black 1px;
   align-items: start;
   font-weight: 800;
   justify-content: center;
@@ -35,6 +36,14 @@ html {
 .date,
 .desc {
   font-weight: 500;
+}
+
+.date {
+  color: var(--grey-950);
+}
+
+.desc {
+  color: var(--grey-500);
 }
 
 .tag {
