@@ -57,6 +57,11 @@ body {
   background-color: var(--grey-700);
   border-radius: 5px;
   font-weight: 700;
+  transition: transform .3s;
+}
+
+.link:hover {
+  transform: scale(1.1);
 }
 
 .links {
