@@ -33,7 +33,7 @@ body {
 }
 
 * {
-  border: solid 1px red;  
+  border: solid 1px red;
 }
 
 .card {
@@ -45,19 +45,24 @@ body {
   padding: 40px;
 }
 
+.test {
+  width: 100%;
+}
+
 .link {
   text-decoration: none;
   color: var(--white);
   padding: 10px;
   background-color: var(--grey-700);
-  text-align: center;
-  flex-grow: 1;
+  border-radius: 5px;
+  font-weight: 700;
 }
 
-.links{
-  display:flex;
-  flex-direction: column;
+.links {
+  display: grid;
+  grid-auto-columns: 1fr min-content;
   gap: 20px;
+  width: 100%;
 }
 
 .avatar {
