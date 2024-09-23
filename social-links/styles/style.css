@@ -71,3 +71,11 @@ body {
   height: 128px;
   width:  128px;
 }
+
+h1 {
+  font-size: 1.6rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
