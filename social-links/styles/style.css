@@ -38,6 +38,7 @@ body {
 
 .card {
   background-color: var(--grey-800);
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
