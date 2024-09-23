@@ -1,14 +1,24 @@
+@font-face {
+  font-family: Inter;
+  src: url(../assets/fonts/static/Inter-Regular.ttf);
+}
+
 :root {
   --green: hsl(75, 94%, 57%);
   --white: hsl(0, 0%, 100%);
   --grey-700: hsl(0, 0%, 20%);
   --grey-800: hsl(0, 0%, 12%);
   --grey-900: hsl(0, 0%, 8%);
+
+  /** Font **/
+  font-family: Inter;
 }
 
 /** Resets */
 html,
 body {
+  display: grid;
+  place-items: center;
   background-color: var(--grey-900);
   margin: 0;
   height: 100%;
@@ -17,4 +27,12 @@ body {
 
 .location {
   color: var(--green);
+  font-weight: 600;
+}
+
+.card {
+  background-color: var(--grey-800);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
