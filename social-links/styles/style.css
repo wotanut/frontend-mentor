@@ -37,10 +37,6 @@ body {
   font-weight: 600;
 }
 
-* {
-  border: solid 1px red;
-}
-
 .card {
   background-color: var(--grey-800);
   border-radius: 10px;
