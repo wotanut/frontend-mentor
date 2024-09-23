@@ -1,6 +1,6 @@
 @font-face {
   font-family: Inter;
-  src: url(../assets/fonts/static/Inter-Regular.ttf);
+  src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
 
 :root {
@@ -13,6 +13,7 @@
 
   /** Font **/
   font-family: Inter;
+  font-weight: 400;
 }
 
 /** Resets */
@@ -25,6 +26,10 @@ body {
   height: 100%;
   color: var(--white);
   text-align: center;
+}
+
+.name {
+  font-weight: 700;
 }
 
 .location {
@@ -45,10 +50,6 @@ body {
   padding: 40px;
 }
 
-.test {
-  width: 100%;
-}
-
 .link {
   text-decoration: none;
   color: var(--white);
@@ -60,11 +61,13 @@ body {
 
 .links {
   display: grid;
-  grid-auto-columns: 1fr min-content;
+  grid-auto-columns: 1fr;
   gap: 20px;
   width: 100%;
 }
 
 .avatar {
   border-radius: 100%;
+  height: 128px;
+  width:  128px;
 }
