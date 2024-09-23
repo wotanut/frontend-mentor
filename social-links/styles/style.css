@@ -4,6 +4,7 @@
 }
 
 :root {
+  font-size: 0.875em;
   --green: hsl(75, 94%, 57%);
   --white: hsl(0, 0%, 100%);
   --grey-700: hsl(0, 0%, 20%);
@@ -23,6 +24,7 @@ body {
   margin: 0;
   height: 100%;
   color: var(--white);
+  text-align: center;
 }
 
 .location {
@@ -30,11 +32,31 @@ body {
   font-weight: 600;
 }
 
+* {
+  border: solid 1px red;  
+}
+
 .card {
   background-color: var(--grey-800);
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 40px;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--white);
+  padding: 10px;
+  background-color: var(--grey-700);
+  text-align: center;
+  flex-grow: 1;
+}
+
+.links{
+  display:flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .avatar {
