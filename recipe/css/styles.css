@@ -28,9 +28,10 @@ body,
 html {
   margin: 0;
   height: 100%;
-  display: grid;
-  place-items: center;
   background-color: var(--Stone-100);
+  display: grid;
+  grid-template-columns: 1fr auto; 
+  place-items: center;
 }
 
 h2 {
@@ -43,18 +44,22 @@ h2 {
 
 .time {
   background-color: var(--Rose-50);
+  padding-left: 5px;
 }
 
 /* No need to be this specific but for extra saftey imo */
-.time > .prep {
+.time>.prep {
   color: var(--Rose-800);
-} 
+}
 
 .card {
+  /* margin-top: 10%; */
+  max-width: 60%;
   background-color: var(--White);
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
+  padding: 20px;
   text-align: left;
 }
 
@@ -62,3 +67,24 @@ h2 {
   height: 500px;
   width: 500px;
 }
+
+/* Only NOW do I realise I could've done this in grid, possibly much easier */
+table {
+  border: none;
+  border-collapse: collapse; /* http://www.w3.org/TR/CSS2/tables.html#borders */
+  width: 100%;
+}
+
+td {
+  color: var(--Brown-800);  
+  font-weight: 400;
+  /* FIXME: Doesn't seem right */
+}
+
+tr {
+  border-bottom: solid 1px black;
+}
+
+
+@media screen {}
+
