@@ -1,6 +1,7 @@
 @font-face {
   font-family: Young;
   src: url(assets/fonts/young-serif/YoungSerif-Regular.tff);
+  font-display: swap;
 }
 
 @font-face {
@@ -30,7 +31,7 @@ html {
   height: 100%;
   background-color: var(--Stone-100);
   display: grid;
-  grid-template-columns: 1fr auto; 
+  grid-template-columns: 1fr auto;
   place-items: center;
 }
 
@@ -71,12 +72,13 @@ h2 {
 /* Only NOW do I realise I could've done this in grid, possibly much easier */
 table {
   border: none;
-  border-collapse: collapse; /* http://www.w3.org/TR/CSS2/tables.html#borders */
+  border-collapse: collapse;
+  /* http://www.w3.org/TR/CSS2/tables.html#borders */
   width: 100%;
 }
 
 td {
-  color: var(--Brown-800);  
+  color: var(--Brown-800);
   font-weight: 400;
   /* FIXME: Doesn't seem right */
 }
@@ -85,6 +87,4 @@ tr {
   border-bottom: solid 1px black;
 }
 
-
 @media screen {}
-
