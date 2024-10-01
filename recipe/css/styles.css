@@ -76,7 +76,7 @@ table {
 }
 
 hr {
-  border: 1px solid lightgray;  
+  border: 1px solid lightgray;
   width: 100%;
 }
 
@@ -91,7 +91,7 @@ li {
   padding-left: 10px;
 }
 
-li > span {
+li>span {
   color: black;
   font-weight: 400;
 }
@@ -115,10 +115,13 @@ th {
 
 @media screen and (max-width: 400px) {
   .card {
-    margin: 0vh;
-    max-width: 100%;
+    margin: 0%;
+    max-width: 100vw;
+    height: 100vh;
   }
 
   html,
-  body {}
+  body {
+    margin: 0;
+  }
 }
