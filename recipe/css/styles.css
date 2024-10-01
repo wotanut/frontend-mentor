@@ -19,6 +19,7 @@
   --Brown-800: hsl(14, 45%, 36%);
   --Rose-800: hsl(332, 51%, 32%);
   --Rose-50: hsl(330, 100%, 98%);
+  --rounded: 10px;
 
   /* fonts */
   font-family: Outfit;
@@ -43,6 +44,7 @@ h2 {
 }
 
 .time {
+  border-radius: var(--rounded); 
   background-color: var(--Rose-50);
   padding-left: 5px;
 }
@@ -54,18 +56,18 @@ h2 {
 
 .card {
   /* margin-top: 10%; */
-  max-width: 60vh;
+  max-width: 70vh;
   background-color: var(--White);
   display: flex;
   flex-direction: column;
   align-items: left;
   padding: 20px;
   text-align: left;
+  border-radius: var(--rounded)
 }
 
-.header {
-  height: 500px;
-  width: 500px;
+.header-image {
+  border-radius: var(--rounded);
 }
 
 /* Only NOW do I realise I could've done this in grid, possibly much easier */
