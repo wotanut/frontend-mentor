@@ -11,3 +11,4 @@ A card for viewing an example blog post
 
 ## [Recipe](https://playgrounds.sambot.dev/recipe)
 A simple recipe for making an omelette
+- URL
