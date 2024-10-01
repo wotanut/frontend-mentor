@@ -60,7 +60,7 @@ h2 {
   align-items: left;
   padding: 20px;
   text-align: left;
-  border-radius: var(--rounded)
+  border-radius: var(--rounded);
 }
 
 .header-image {
@@ -85,4 +85,17 @@ tr {
   border-bottom: solid 1px black;
 }
 
-@media screen {}
+tr:last-child {
+  border: none;
+}
+
+@media screen and (max-width: 400px) {
+  .card {
+    margin: 0vh;
+    
+  }
+
+  html, body {
+    
+  }
+}
