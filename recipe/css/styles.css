@@ -39,10 +39,6 @@ h2 {
   color: var(--Brown-800);
 }
 
-* {
-  border: solid 1px red;
-}
-
 .time {
   border-radius: var(--rounded); 
   background-color: var(--Rose-50);
