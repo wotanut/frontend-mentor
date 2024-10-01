@@ -55,7 +55,8 @@ h2 {
 }
 
 .card {
-  /* margin-top: 10%; */
+  margin-top: 10%;
+  margin-bottom: 10%;
   max-width: 70vh;
   background-color: var(--White);
   display: flex;
