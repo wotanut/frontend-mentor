@@ -40,7 +40,7 @@ h2 {
 }
 
 .time {
-  border-radius: var(--rounded); 
+  border-radius: var(--rounded);
   background-color: var(--Rose-50);
   padding-left: 5px;
 }
