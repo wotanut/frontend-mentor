@@ -31,7 +31,7 @@ html {
   margin: 0;
   height: 100%;
   background-color: var(--Stone-100);
-  display : inline-grid;
+  display: inline-grid;
   place-items: center;
 }
 
@@ -40,9 +40,9 @@ h2 {
 }
 
 .time {
-  border-radius: var(--rounded); 
+  border-radius: var(--rounded);
   background-color: var(--Rose-50);
-  padding-left: 5px;
+  padding-left: 3%;
 }
 
 /* No need to be this specific but for extra saftey imo */
@@ -77,8 +77,22 @@ table {
 
 td {
   color: var(--Brown-800);
+  font-weight: 700;
+}
+
+li {
+  color: var(--Rose-800);
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+li > span {
+  color: black;
   font-weight: 400;
-  /* FIXME: Doesn't seem right */
+}
+
+.bold {
+  font-weight: bold;
 }
 
 tr {
@@ -92,10 +106,9 @@ tr:last-child {
 @media screen and (max-width: 400px) {
   .card {
     margin: 0vh;
-    
+    max-width: 100%;
   }
 
-  html, body {
-    
-  }
+  html,
+  body {}
 }
