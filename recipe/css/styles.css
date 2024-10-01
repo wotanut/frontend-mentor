@@ -1,0 +1,88 @@
+@font-face {
+  font-family: Young;
+  src: url(assets/fonts/young-serif/YoungSerif-Regular.tff);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Outfit;
+  src: url(assets/fonts/outfit/Outfit-VariableFont_wght.tff);
+}
+
+:root {
+  /* Variables */
+  --White: hsl(0, 0%, 100%);
+  --Stone-100: hsl(30, 54%, 90%);
+  --Stone-150: hsl(30, 18%, 87%);
+  --Stone-600: hsl(30, 10%, 34%);
+  --Stone-900: hsl(24, 5%, 18%);
+  --Brown-800: hsl(14, 45%, 36%);
+  --Rose-800: hsl(332, 51%, 32%);
+  --Rose-50: hsl(330, 100%, 98%);
+  --rounded: 10px;
+
+  /* fonts */
+  font-family: Outfit;
+  font-weight: 400;
+}
+
+body,
+html {
+  margin: 0;
+  height: 100%;
+  background-color: var(--Stone-100);
+  display : inline-grid;
+  place-items: center;
+}
+
+h2 {
+  color: var(--Brown-800);
+}
+
+.time {
+  border-radius: var(--rounded); 
+  background-color: var(--Rose-50);
+  padding-left: 5px;
+}
+
+/* No need to be this specific but for extra saftey imo */
+.time>.prep {
+  color: var(--Rose-800);
+}
+
+.card {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  max-width: 70vh;
+  background-color: var(--White);
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 20px;
+  text-align: left;
+  border-radius: var(--rounded)
+}
+
+.header-image {
+  border-radius: var(--rounded);
+}
+
+/* Only NOW do I realise I could've done this in grid, possibly much easier */
+table {
+  border: none;
+  border-collapse: collapse;
+  /* http://www.w3.org/TR/CSS2/tables.html#borders */
+  width: 100%;
+}
+
+td {
+  color: var(--Brown-800);
+  font-weight: 400;
+  /* FIXME: Doesn't seem right */
+}
+
+tr {
+  border-bottom: solid 1px black;
+}
+
+@media screen {}

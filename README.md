@@ -8,3 +8,6 @@ The one everyone starts with
 ## [Blog preview card](https://playgrounds.sambot.dev/blog-card)
 A card for viewing an example blog post
 -URL: https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS/hub
+
+## [Recipe](https://playgrounds.sambot.dev/recipe)
+A simple recipe for making an omelette
