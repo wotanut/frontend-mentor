@@ -75,6 +75,11 @@ table {
   width: 100%;
 }
 
+hr {
+  border: 1px solid lightgray;  
+  width: 100%;
+}
+
 td {
   color: var(--Brown-800);
   font-weight: 700;
@@ -101,6 +106,11 @@ tr {
 
 tr:last-child {
   border: none;
+}
+
+th {
+  font-weight: 400;
+  padding-left: 5%;
 }
 
 @media screen and (max-width: 400px) {
