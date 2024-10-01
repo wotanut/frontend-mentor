@@ -30,8 +30,7 @@ html {
   margin: 0;
   height: 100%;
   background-color: var(--Stone-100);
-  display: grid;
-  grid-template-columns: 1fr auto;
+  display : inline-grid;
   place-items: center;
 }
 
@@ -55,7 +54,7 @@ h2 {
 
 .card {
   /* margin-top: 10%; */
-  max-width: 60%;
+  max-width: 60vh;
   background-color: var(--White);
   display: flex;
   flex-direction: column;
