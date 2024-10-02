@@ -10,23 +10,31 @@
   font-size: 0.875rem;
 }
 
+body,
+html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
 .card {
   display: grid;
-  grid-template-areas: 'one two';
+  grid-template-areas: "one two";
 }
 
 .product-image {
-  grid-area: 'one';
+  grid-area: "one";
 }
 
 .product-text {
-  grid-area: 'two';
+  grid-area: "two";
 }
-
 
 @media screen and (max-width: 400px) {
   .card {
     /* Make verticle on small screens  */
-    grid-template-areas : 'one' 'two';
+    grid-template-areas: "one" "two";
   }
 }
