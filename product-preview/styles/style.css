@@ -17,11 +17,17 @@ html {
   width: 100%;
   display: grid;
   place-items: center;
+  background-color: var(--Cream);
 }
 
 .card {
   display: grid;
   grid-template-areas: "one two";
+  background-color: var(--White);
+}
+
+.price-reduced {
+  color: darkgreen; 
 }
 
 .product-image {
