@@ -20,10 +20,32 @@ html {
   background-color: var(--Cream);
 }
 
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
 .card {
   display: grid;
   grid-template-areas: "one two";
   background-color: var(--White);
+}
+
+.price {
+  display: flex;
+  align-items: center;
+}
+
+.product-add {
+  background-color: darkgreen;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .price-reduced {
