@@ -1,0 +1,32 @@
+:root {
+  /* Primary */
+  --Dark-cyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+  /* Secondary */
+  --Very-dark-blue: hsl(212, 21%, 14%);
+  --Dark-grayish-blue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+
+  font-size: 0.875rem;
+}
+
+.card {
+  display: grid;
+  grid-template-areas: 'one two';
+}
+
+.product-image {
+  grid-area: 'one';
+}
+
+.product-text {
+  grid-area: 'two';
+}
+
+
+@media screen and (max-width: 400px) {
+  .card {
+    /* Make verticle on small screens  */
+    grid-template-areas : 'one' 'two';
+  }
+}
