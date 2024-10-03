@@ -27,9 +27,14 @@ html {
   margin: 0;
   height: 100%;
   width: 100%;
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: var(--Cream);
+}
+
+* {
+  border: solid 1px red;  
 }
 
 a {
@@ -47,7 +52,24 @@ a:visited {
   background-color: var(--White);
 }
 
-.price {
+h1 {
+  font-weight : 700;
+  font-size: 1.75rem;
+}
+
+.product-description {
+  font-weight: 400;
+  letter-spacing: 0.875rem;
+  text-transform: uppercase;
+  font-family: "Fraunces";
+}
+
+.product-long-text {
+ font-weight: 400; 
+  font-family: "Fraunces";
+}
+
+.product-price {
   display: flex;
   align-items: center;
 }
@@ -68,11 +90,15 @@ a:visited {
 }
 
 .product-image {
-  grid-area: "one";
+  /* height: 50%; */
+  /* width: 50%; */
+  object-fit: contain;
+  grid-area: one;
 }
 
 .product-text {
-  grid-area: "two";
+  grid-area: two;
+  padding: 10px;
 }
 
 @media screen and (max-width: 400px) {
