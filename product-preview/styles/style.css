@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Monsterrat";
+  src: url('fonts/Monsterrat-VariableFont_wght.tff'); 
+}
+
+@font-face {
+  font-family: "Fraunces";
+  src: url('fonts/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf ');
+}
+
 :root {
   /* Primary */
   --Dark-cyan: hsl(158, 36%, 37%);
@@ -8,6 +18,8 @@
   --White: hsl(0, 0%, 100%);
 
   font-size: 0.875rem;
+  font-family: "Fraunces";
+  font-weight: 500;
 }
 
 body,
@@ -42,7 +54,10 @@ a:visited {
 
 .product-add {
   background-color: darkgreen;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
   color: white;
   padding: 10px;
   border-radius: 5px;
