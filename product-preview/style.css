@@ -54,7 +54,11 @@ a:visited {
 
 h1 {
   font-weight : 700;
-  font-size: 1.75rem;
+  font-size: calc(0.875rem * 3);
+}
+
+.price-full {
+  text-decoration: line-through;
 }
 
 .product-description {
