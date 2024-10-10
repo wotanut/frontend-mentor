@@ -1,5 +1,0 @@
-{
-    "name": "Loading",
-    "meta" : "A site written in pure HTML and CSS that uses keyframes to animate boxes to create a loading animation.",
-    "languages": ["html", "css"]
-}
