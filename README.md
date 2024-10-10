@@ -1,3 +1,7 @@
+# Playgrounds
+
+## [Loading](https://plagrounds.sambot.dev/loading/)
+A simple loading animation I made using keyframes.
 
 ## [QR Code](https://playgrounds.sambot.dev/QR-code/)
 The one everyone starts with
