@@ -3,10 +3,7 @@ author:
   name: wotanut
   email: sam@sambot.dev
 
-description: >
-   A place to
-showcase CSS challenges and
-frontendmentor solutions
+description: A place to showcase CSS challenges and frontendmentor solutions
 
 remote_theme: jekyll/minima
 
