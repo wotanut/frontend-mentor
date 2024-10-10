@@ -13,3 +13,10 @@ plugins:
 
 minima:
   skin: solarized-dark
+
+  social_links:
+    - { platform: github, user_url: "https://github.com/wotanut" }
+    - {
+        platform: linkedin,
+        user_url: "https://www.linkedin.com/in/sam-blewitt",
+      }
