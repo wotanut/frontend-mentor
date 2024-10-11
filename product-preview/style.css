@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "Monsterrat";
+  src: url("fonts/Monsterrat-VariableFont_wght.tff");
+}
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("fonts/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf ");
+}
+
+:root {
+  /* Primary */
+  --Dark-cyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+  /* Secondary */
+  --Very-dark-blue: hsl(212, 21%, 14%);
+  --Dark-grayish-blue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+
+  font-size: 0.875rem;
+  font-family: "Fraunces";
+  font-weight: 500;
+}
+
+body,
+html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--Cream);
+}
+
+/* * { */
+/*   border: solid 1px red;   */
+/* } */
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.card {
+  display: grid;
+  border-radius: 10px;
+  grid-template-areas: "one two";
+  grid-auto-columns: min-content;
+  background-color: var(--White);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: calc(0.875rem * 3);
+  padding: 0px;
+  margin: 10px;
+}
+
+.price-full {
+  text-decoration: line-through;
+}
+
+.product-description {
+  font-weight: 400;
+  letter-spacing: 0.875rem;
+  text-transform: uppercase;
+  font-family: "Fraunces";
+}
+
+.product-long-text {
+  font-weight: 400;
+  font-family: "Fraunces";
+  color: grey;
+}
+
+.product-price {
+  display: flex;
+  align-items: center;
+}
+
+.product-image-mobile {
+  display: none;
+}
+
+.product-add {
+  background-color: darkgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.price-reduced {
+  color: darkgreen;
+}
+
+.product-image {
+  height: 60vh;
+  object-fit: contain;
+  grid-area: one;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.price-full {
+  margin-left: 30px;
+  color: grey;
+}
+
+.product-text {
+  grid-area: two;
+  width: 27vw;
+  padding: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .card {
+    /* Make verticle on small screens  */
+    grid-template-areas: "one" "two";
+  }
+
+  .product-image {
+    display: none;
+  }
+
+  .product-text {
+    width: auto;
+  }
+
+  .product-image-mobile {
+    display: block;
+    grid-area: one;
+    width: 50vw;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+}
