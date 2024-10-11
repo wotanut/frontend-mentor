@@ -33,9 +33,9 @@ html {
   background-color: var(--Cream);
 }
 
-* {
-  border: solid 1px red;  
-}
+/* * { */
+/*   border: solid 1px red;   */
+/* } */
 
 a {
   text-decoration: none;
@@ -48,7 +48,9 @@ a:visited {
 
 .card {
   display: grid;
+  border-radius: 10px;
   grid-template-areas: "one two";
+  grid-auto-columns: min-content;
   background-color: var(--White);
 }
 
@@ -94,18 +96,20 @@ h1 {
 }
 
 .product-image {
-  /* height: 50%; */
-  /* width: 50%; */
+  height: 60vh;
   object-fit: contain;
   grid-area: one;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 .product-text {
   grid-area: two;
-  padding: 10px;
+  width: 27vw;
+  padding: 20px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .card {
     /* Make verticle on small screens  */
     grid-template-areas: "one" "two";
