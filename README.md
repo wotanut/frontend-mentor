@@ -18,3 +18,7 @@ Where you can find me across the internet
 ## [Recipe](https://playgrounds.sambot.dev/recipe)
 A simple recipe for making an omelette
 - [View on frontendmentor](https://www.frontendmentor.io/solutions/recipe-page-built-using-neovim-V2V3AzHUHA)
+
+## [Product Preview](https://playgrounds.sambot.dev/product-preview)
+A preview of a perfume product
+- [View on frontendmentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa/hub)
