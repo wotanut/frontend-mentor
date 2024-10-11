@@ -73,6 +73,7 @@ h1 {
 .product-long-text {
  font-weight: 400; 
   font-family: "Fraunces";
+  color: grey;
 }
 
 .product-price {
@@ -101,6 +102,11 @@ h1 {
   grid-area: one;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+}
+
+.price-full {
+  margin-left: 30px;
+  color: grey;
 }
 
 .product-text {
