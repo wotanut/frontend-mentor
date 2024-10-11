@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Monsterrat";
-  src: url('fonts/Monsterrat-VariableFont_wght.tff'); 
+  src: url("fonts/Monsterrat-VariableFont_wght.tff");
 }
 
 @font-face {
   font-family: "Fraunces";
-  src: url('fonts/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf ');
+  src: url("fonts/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf ");
 }
 
 :root {
@@ -55,7 +55,7 @@ a:visited {
 }
 
 h1 {
-  font-weight : 700;
+  font-weight: 700;
   font-size: calc(0.875rem * 3);
   padding: 0px;
   margin: 10px;
@@ -73,7 +73,7 @@ h1 {
 }
 
 .product-long-text {
- font-weight: 400; 
+  font-weight: 400;
   font-family: "Fraunces";
   color: grey;
 }
@@ -81,6 +81,10 @@ h1 {
 .product-price {
   display: flex;
   align-items: center;
+}
+
+.product-image-mobile {
+  display: none;
 }
 
 .product-add {
@@ -95,7 +99,7 @@ h1 {
 }
 
 .price-reduced {
-  color: darkgreen; 
+  color: darkgreen;
 }
 
 .product-image {
@@ -117,9 +121,25 @@ h1 {
   padding: 20px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 900px) {
   .card {
     /* Make verticle on small screens  */
     grid-template-areas: "one" "two";
+  }
+
+  .product-image {
+    display: none;
+  }
+
+  .product-text {
+    width: auto;
+  }
+
+  .product-image-mobile {
+    display: block;
+    grid-area: one;
+    width: 50vw;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
   }
 }
