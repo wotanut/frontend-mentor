@@ -48,7 +48,6 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  /* box-shadow: filter(10px 10px var(--Grayish-Blue)); */
   /* FIXME: Use a pseudo element */
   border-radius: 5px;
 }
@@ -91,4 +90,24 @@ h2 {
 
 .card-icon {
   margin-left: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .cards {
+    grid-template-areas: "one" "two" "five" "three";
+    grid-template-columns: 1fr;
+    padding: 20px;
+    grid-template-rows: repeat(4,1fr);
+  }
+
+  .card-calc .card-sup {
+    grid-row: span 1;
+  }
+
+  .card-calc {
+    grid-area: three;
+  }
+  .card-sup {
+    grid-area: one;
+  }
 }
