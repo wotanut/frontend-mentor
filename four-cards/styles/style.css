@@ -51,7 +51,7 @@ body {
 
 .card-sup {
   border-top: var(--Cyan) solid 3px;
-  grid-area: two / four;
+  grid-area:one / four;
   justify-self: center;
 }
 
@@ -61,10 +61,11 @@ body {
 }
 
 .card-calc {
+  grid-area: three / six;
   border-top: var(--Blue) solid 3px;
 }
 
 
 .card-icon {
-  justify-self: right;
+  margin-left: auto;
 }
