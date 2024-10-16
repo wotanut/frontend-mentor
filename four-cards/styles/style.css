@@ -24,4 +24,16 @@ body {
   width: 100%;
   display: grid;
   place-items: center;
+  background: var(--Very-Light-Gray);
+}
+
+.card {
+  background: white;
+  display:flex ;
+  flex-direction:column;
+  /* box-shadow: filter(10px 10px var(--Grayish-Blue)); */
+}
+
+.card-icon {
+  justify-self: right;
 }
