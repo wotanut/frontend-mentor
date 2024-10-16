@@ -1,3 +1,9 @@
+@font-face {
+  font-family: Poppins;
+  src: url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap');
+  font-display: swap;
+}
+
 :root {
   --Red: hsl(0, 78%, 62%);
   --Cyan: hsl(180, 62%, 55%);
@@ -9,6 +15,7 @@
   --Very-Light-Gray: hsl(0, 0%, 98%);
 
   font-size: 0.9375rem;
+  font-family: Poppins;
 }
 
 html,
