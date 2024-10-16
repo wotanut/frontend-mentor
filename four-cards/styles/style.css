@@ -96,7 +96,7 @@ h2 {
   .cards {
     grid-template-areas: "one" "two" "five" "three";
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4,1fr);
+    grid-template-rows: repeat(4, 1fr);
     padding: 10vw;
   }
 
@@ -111,6 +111,7 @@ h2 {
   .card-calc {
     grid-area: three;
   }
+
   .card-sup {
     grid-area: one;
   }
