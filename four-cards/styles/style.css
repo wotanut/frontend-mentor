@@ -30,18 +30,22 @@ body {
 .cards {
   display: grid;
   grid-template-areas: "one two three" "four five six";
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  place-items: center;
 }
 
 .card {
   background: white;
   padding: 20px;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   /* box-shadow: filter(10px 10px var(--Grayish-Blue)); */
   /* FIXME: Use a pseudo element */
   border-top-left-radius: 5px;
-  border-top-right-radius:5px;
+  border-top-right-radius: 5px;
 }
 
 .card-team {
@@ -51,7 +55,8 @@ body {
 
 .card-sup {
   border-top: var(--Cyan) solid 3px;
-  grid-area:one / four;
+  grid-area: one / four;
+  grid-row: span 2;
   justify-self: center;
 }
 
@@ -63,8 +68,8 @@ body {
 .card-calc {
   grid-area: three / six;
   border-top: var(--Blue) solid 3px;
+  grid-row: span 2;
 }
-
 
 .card-icon {
   margin-left: auto;
