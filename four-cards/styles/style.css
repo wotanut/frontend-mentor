@@ -44,8 +44,20 @@ body {
   flex-direction: column;
   /* box-shadow: filter(10px 10px var(--Grayish-Blue)); */
   /* FIXME: Use a pseudo element */
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-radius: 5px;
+}
+
+h2 {
+  margin: 0;
+}
+
+.light,
+.description {
+  font-weight: 200;
+}
+
+.text {
+  text-align: center;
 }
 
 .card-team {
