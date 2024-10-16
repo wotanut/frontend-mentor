@@ -30,27 +30,38 @@ body {
 .cards {
   display: grid;
   grid-template-areas: "one two three" "four five six";
+  gap: 20px;
 }
 
 .card {
   background: white;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   /* box-shadow: filter(10px 10px var(--Grayish-Blue)); */
+  /* FIXME: Use a pseudo element */
+  border-top-left-radius: 5px;
+  border-top-right-radius:5px;
 }
 
 .card-team {
+  border-top: var(--Red) solid 3px;
   grid-area: two;
 }
 
 .card-sup {
+  border-top: var(--Cyan) solid 3px;
   grid-area: two / four;
   justify-self: center;
-  place-self: center;
 }
 
 .card-karma {
+  border-top: var(--Orange) solid 3px;
   grid-area: five;
+}
+
+.card-calc {
+  border-top: var(--Blue) solid 3px;
 }
 
 
