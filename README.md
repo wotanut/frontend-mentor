@@ -22,3 +22,7 @@ A simple recipe for making an omelette
 ## [Product Preview](https://playgrounds.sambot.dev/product-preview)
 A preview of a perfume product
 - [View on frontendmentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa/hub)
+
+## [Four Cards](https://playgrounds.sambot.dev/four-cards)
+Four simple cards for a random product
+- [View on frontendmentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK/hub)
