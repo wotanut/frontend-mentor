@@ -50,6 +50,7 @@ body {
   flex-direction: column;
   /* FIXME: Use a pseudo element */
   border-radius: 5px;
+  width: 100%;
 }
 
 h2 {
@@ -96,7 +97,6 @@ h2 {
   .cards {
     grid-template-areas: "one" "two" "five" "three";
     grid-template-columns: 1fr;
-    padding: 20px;
     grid-template-rows: repeat(4,1fr);
   }
 
