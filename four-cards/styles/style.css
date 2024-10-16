@@ -50,7 +50,6 @@ body {
   flex-direction: column;
   /* FIXME: Use a pseudo element */
   border-radius: 5px;
-  width: 100%;
 }
 
 h2 {
@@ -93,11 +92,16 @@ h2 {
   margin-left: auto;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   .cards {
     grid-template-areas: "one" "two" "five" "three";
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4,1fr);
+    padding: 10vw;
+  }
+
+  .card {
+    width: 100%;
   }
 
   .card-calc .card-sup {
