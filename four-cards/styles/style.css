@@ -1,6 +1,6 @@
 @font-face {
   font-family: Poppins;
-  src: url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap');
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap");
   font-display: swap;
 }
 
@@ -27,12 +27,32 @@ body {
   background: var(--Very-Light-Gray);
 }
 
+.cards {
+  display: grid;
+  grid-template-areas: "one two three" "four five six";
+}
+
 .card {
   background: white;
-  display:flex ;
-  flex-direction:column;
+  display: flex;
+  flex-direction: column;
   /* box-shadow: filter(10px 10px var(--Grayish-Blue)); */
 }
+
+.card-team {
+  grid-area: two;
+}
+
+.card-sup {
+  grid-area: two / four;
+  justify-self: center;
+  place-self: center;
+}
+
+.card-karma {
+  grid-area: five;
+}
+
 
 .card-icon {
   justify-self: right;
