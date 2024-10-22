@@ -73,8 +73,8 @@ img {
     "three"
     "four"
     "five";
+    padding-block: 2rem;
 
-  padding-block: 2rem;
   width: 80%;
   margin-inline: auto;
 }
