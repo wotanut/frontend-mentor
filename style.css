@@ -75,7 +75,7 @@ img {
     "five";
 
   padding-block: 2rem;
-  width: min(95%, 70rem);
+  width: 80%;
   margin-inline: auto;
 }
 
