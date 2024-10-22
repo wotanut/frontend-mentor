@@ -26,3 +26,7 @@ A preview of a perfume product
 ## [Four Cards](https://playgrounds.sambot.dev/four-cards)
 Four simple cards for a random product
 - [View on frontendmentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK/hub)
+
+## [Grid](https://playgrounds.sambot.dev/grid)
+Just a simple grid testimonial
+- [View on frontendmentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7/hub)
