@@ -20,6 +20,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  background-color: var(--clr-neutral-200);
 }
 
 /* Utils */
@@ -39,7 +40,7 @@ body {
 
 .flex {
   display: flex;
-  padding-block: 2rem;
+  /* padding-block: 2rem; */
   border-radius: 0.5rem;
   margin-inline: auto;
   gap: 1rem;
@@ -66,15 +67,13 @@ img {
 .grid {
   display: grid;
   gap: 1.5rem;
-
   grid-template-areas:
     "one"
     "two"
     "three"
     "four"
     "five";
-    padding-block: 2rem;
-
+  padding-block: 2rem;
   width: 80%;
   margin-inline: auto;
 }
