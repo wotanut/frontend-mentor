@@ -34,14 +34,14 @@ Just a simple grid testimonial
 ## WSUK24
 All the code I wrote for WSUK24 for module D. The files are avaialable in both the source and at [my WS24 repository](https://github.com/wotanut/wsuk24) 
 
-[D10](https://playgrounds.sambot.dev/D10)
+[D10](https://playgrounds.sambot.dev/d10)
 
-[D9](https://playgrounds.sambot.dev/D9)
+[D9](https://playgrounds.sambot.dev/d9)
 
-[D6](https://playgrounds.sambot.dev/D6)
+[D6](https://playgrounds.sambot.dev/d6)
 
-[D4](https://playgrounds.sambot.dev/D4)
+[D4](https://playgrounds.sambot.dev/d4)
 
-[D3](https://playgrounds.sambot.dev/D3)
+[D3](https://playgrounds.sambot.dev/d3)
 
-[D2](https://playgrounds.sambot.dev/D2)
+[D2](https://playgrounds.sambot.dev/d2)
