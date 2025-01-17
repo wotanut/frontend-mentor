@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Layout</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!--Put your code here-->
+
+    <div class="item a">A</div>
+    <div class="item b">B</div>
+
+    <div class="grid">
+      <div class="item c">C</div>
+      <div class="item d">D</div>
+      <div class="item e">E</div>
+      <div class="item f">F</div>
+    </div>
+
+    <!--Do not modify any code after this line-->
+    <footer id="dynamicFooter" class="section-footer"></footer>
+    <script>
+      document.getElementById('dynamicFooter').innerHTML =
+        '&copy; ' +
+        new Date().getFullYear() +
+        ' WorldSkills | All rights reserved.';
+    </script>
+  </body>
+</html>

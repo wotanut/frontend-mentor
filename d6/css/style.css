@@ -1,0 +1,102 @@
+/* Root Variables for Colors */
+:root {
+  /* Text Colors */
+  --color-text-dark: #000000; /* Black */
+
+  /* Background Colors */
+  --color-a-bg: #ff6b6b; /* Section A */
+  --color-b-bg: #4ecdc4; /* Section B */
+  --color-c-bg: #ffb6b9; /* Section C */
+  --color-d-bg: #87ceeb; /* Section D */
+  --color-e-bg: #ffeb99; /* Section E */
+  --color-f-bg: #5b9bd5; /* Section F */
+  --color-footer-bg: #c39bd3; /* Footer */
+}
+
+/*DO NOT MODIFY ANY CODE ABOVE*/
+/*
+PUT YOUR CSS CODE FROM THIS POINT ONWARD
+Use the given colours for sections A, B, C, D, E, F and Footer
+*/
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.item {
+  text-align: center;
+}
+
+.grid{ 
+  display: grid;
+  grid-template-areas: 'C C F' ' D E F';
+  gap: 5px;
+  align-items: center;
+  margin: 20px;
+  height: 20%;
+  grid-template-rows: 1.5fr 0.75fr;
+}
+
+.item {
+  height: 100%;
+  align-content: center;
+}
+
+.a {
+  background-color: var(--color-a-bg);
+  height: 7%;
+  display: grid;
+  align-items: center;
+}
+
+.b {
+  background-color: var(--color-b-bg);
+  height: 5%;
+  display: grid;
+  align-items: center;
+
+}
+
+.c {
+  background-color: var(--color-c-bg);
+  grid-area: C;
+}
+
+.d {
+  background-color: var(--color-d-bg);
+  grid-area: D;
+}
+
+.e {
+  background-color: var(--color-e-bg);
+}
+
+.f {
+  background-color: var(--color-f-bg);
+  grid-area: F;
+}
+
+footer {
+  background-color: var(--color-footer-bg);
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 786px){
+  .grid {
+    grid-template-areas: 'C' 'D' 'E' 'F';
+  }
+
+  .c {
+    height: 20vh;
+  }
+
+  .d, .e, .f {
+    height: 10vh;
+  }
+}
