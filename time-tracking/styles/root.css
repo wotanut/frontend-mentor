@@ -1,7 +1,5 @@
 :root {
     font-family: "Rubik", serif;
-    font-weight: 300;
-    font-size: 18px;
 
     --clr-blue: hsl(246, 80%, 60%);
     --clr-orange: hsl(15, 100%, 70%);
@@ -17,12 +15,10 @@
     --dark-blue: hsl(235, 46%, 20%);
     --Desaturated-blue: hsl(235, 45%, 61%);
     --Pale-Blue: hsl(236, 100%, 87%)
-        /* ### Body Copy */
-        /* --Font-size: 18px (card titles e.g. Work, Play)
-### Font
+/* ### Font
 
 - Family: [Rubik](https://fonts.google.com/specimen/Rubik)
-- Weights: 300, 400, 500 */
+- Weights: 300, 400, 500 */ */
 }
 
 /* 
@@ -36,4 +32,25 @@ body {
     color: white;
     width: 100%;
     height: 100%;
+}
+
+h1, h2,h3,h4 {
+    margin: 0;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 64px;
+    padding-top: 20px;
+}
+
+h2 {
+    /* --Font-size: 18px (card titles e.g. Work, Play) **/
+    font-weight: 500;
+    font-size: 18px;
+}
+
+h3 {
+    font-weight: 300;
+    color: lightgrey;
 }
