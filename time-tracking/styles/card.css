@@ -1,12 +1,29 @@
+.elips {
+    justify-self: end;
+    color: white;
+}
+
+.card>.top {
+    padding: 25px;
+    background-color: var(--dark-blue);
+    border-radius: 20px;
+}
+
 .card {
     height: min-content;
     display: grid;
     grid-template-rows: min-content min-content;
     border-radius: 25px;
-    width: 300px;
+    width: 50vw;
     background-color: var(--clr-orange);
     gap: 0px;
     padding: 0;
+}
+
+.card>.top>.head{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
 
 .play {
@@ -45,29 +62,8 @@
     max-height: 70px;
 }
 
-.elips {
-    justify-self: end;
-}
-
 .elips:hover {
     cursor: pointer;
-}
-
-.card>.top>.head {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-}
-
-.card>.top {
-    padding: 25px;
-    background-color: var(--dark-blue);
-    border-radius: 20px;
-}
-
-.elips {
-    justify-self: end;
-    color: white;
 }
 
 .report {
@@ -77,19 +73,18 @@
 
 .report>.top{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 25px;
     padding: 25px;
-    padding-bottom: 50px;
     background-color: var(--clr-violet);
+    align-items: center;
 }
 
 .report>.bottom {
     display: flex;
     padding: 25px;
-    flex-direction: column;
-    /* flex: 1; */
-    gap: 15px;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .avatar {
@@ -104,4 +99,26 @@
 
 .timeframe:hover {
     color: white;
+}
+
+@media screen and (min-width: 1440px) {
+    .card {
+        width: 300px;
+    }
+
+    .card>.top>.details{
+        display: block;
+    }
+    
+    .report>.bottom {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .report>.top{
+        flex-direction: column;
+        gap: 25px;
+        padding: 25px;
+        padding-bottom: 50px;
+    }    
 }
