@@ -6,7 +6,6 @@
         'Report Work Play Study'
         'Report Excercise Social Care';
     align-content: center;
-    border: solid 1px red;
     grid-gap: 25px;
     justify-content: center;
     height: 100%;

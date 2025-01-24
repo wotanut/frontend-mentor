@@ -9,8 +9,6 @@
     background-color: var(--Desaturated-blue);
 }
 
-.report>.top {}
-
 .report>.bottom {
     background-color: var(--dark-blue);
     display: flex;
@@ -26,6 +24,15 @@
 
 .card>.icon-container {
     background-color: var(--clr-orange);
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    text-align: end;
+    height: 50%;
+    overflow: hidden;
+}
+
+.card>.icon-container>.icon {
+    padding-right: 25px;
 }
 
 .elips {
