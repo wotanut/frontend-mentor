@@ -1,0 +1,17 @@
+/* The file related to laying out all the cards */
+
+.cards {
+    display: grid;
+    grid-template-areas:
+        'Report Work Play Study'
+        'Report Excercise Social Care';
+    align-content: center;
+    border: solid 1px red;
+    grid-gap: 25px;
+    justify-content: center;
+    height: 100%;
+}
+
+.report {
+    grid-area: Report;
+}

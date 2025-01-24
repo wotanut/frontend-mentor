@@ -1,0 +1,61 @@
+.avatar {
+    width: 128px;
+    border: solid 3px white;
+    border-radius: 100%;
+}
+
+.report {
+    padding: 25px;
+    background-color: var(--Desaturated-blue);
+}
+
+.report>.top {}
+
+.report>.bottom {
+    background-color: var(--dark-blue);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card {
+    display: grid;
+    border-radius: 25px;
+    width: 300px;
+}
+
+.card>.icon-container {
+    background-color: var(--clr-orange);
+}
+
+.elips {
+    justify-self: end;
+}
+
+.card>.top>.head {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.card>.top {
+    padding: 25px;
+}
+
+.elips {
+    justify-self: end;
+    color: white;
+}
+
+.card {
+    background-color: var(--dark-blue);
+}
+
+.timeframe {
+    color: gray;
+}
+
+.timeframe:hover {
+    color: white;
+}
