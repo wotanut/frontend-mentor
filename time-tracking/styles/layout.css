@@ -2,9 +2,14 @@
 
 .cards {
     display: grid;
-    grid-template-areas:
-        'Report Work Play Study'
-        'Report Excercise Social Care';
+    grid-template-areas: 
+        'Report' 
+        'Work' 
+        'Play' 
+        'Study' 
+        'Excercise' 
+        'Social' 
+        'Care';
     align-content: center;
     grid-gap: 25px;
     justify-content: center;
@@ -13,4 +18,12 @@
 
 .report {
     grid-area: Report;
+}
+
+@media screen and (min-width: 1440px) {
+    .cards {
+        grid-template-areas:
+        'Report Work Play Study'
+        'Report Excercise Social Care';
+    }
 }
