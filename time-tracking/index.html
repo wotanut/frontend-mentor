@@ -22,21 +22,24 @@
       href="images/favicon-32x32.png"
       type="image/x-icon"
     />
+
+    <!-- JS -->
+    <script src="js/index.js"></script>
   </head>
   <body>
     <section class="cards">
       <article class="card report">
         <div class="top">
           <img src="images/image-jeremy.png" alt="Jeremey" class="avatar" />
-          <div class="details">
+          <div class="text">
             <h3>Report for</h3>
             <h1 style="padding-top: 0px" class="name">Jeremy Robson</h1>
           </div>
         </div>
         <div class="bottom">
-          <a class="timeframe daily">Daily</a>
-          <a class="timeframe weekly">Weekly</a>
-          <a class="timeframe monthly">Monthly</a>
+          <button id="daily" class="timeframe daily">Daily</button>
+          <button id="weekly" class="timeframe weekly active">Weekly</button>
+          <button id="monthly" class="timeframe monthly">Monthly</button>
         </div>
       </article>
       <article class="card card-1 work">

@@ -5,7 +5,7 @@
     --clr-orange: hsl(15, 100%, 70%);
     --clr-blue: hsl(195, 74%, 62%);
     --clr-red: hsl(348, 100%, 68%);
-    --clr-Lime: hsl(145, 58%, 55%);
+    --clr-lime: hsl(145, 58%, 55%);
     --clr-violet: hsl(264, 64%, 52%);
     --clr-yellow: hsl(43, 84%, 65%);
 
@@ -15,10 +15,10 @@
     --dark-blue: hsl(235, 46%, 20%);
     --Desaturated-blue: hsl(235, 45%, 61%);
     --Pale-Blue: hsl(236, 100%, 87%);
-/* ### Font
+    /* ### Font
 
 - Family: [Rubik](https://fonts.google.com/specimen/Rubik)
-- Weights: 300, 400, 500 */ 
+- Weights: 300, 400, 500 */
 }
 
 /* 
@@ -34,7 +34,10 @@ body {
     height: 100%;
 }
 
-h1, h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
     margin: 0;
 }
 
@@ -60,5 +63,12 @@ h3 {
         font-weight: 300;
         font-size: 64px;
         padding-top: 20px;
-    }    
+    }
+}
+
+button {
+    background: none;
+    border: none;
+    text-align: start;
+    font-size: 16px;
 }

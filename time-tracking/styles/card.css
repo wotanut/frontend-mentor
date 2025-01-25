@@ -20,7 +20,7 @@
     padding: 0;
 }
 
-.card>.top>.head{
+.card>.top>.head {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -38,8 +38,12 @@
     background-color: var(--clr-violet);
 }
 
-.care{
+.care {
     background-color: var(--clr-yellow);
+}
+
+.excercise {
+    background-color: var(--clr-lime);
 }
 
 .card>.icon-container {
@@ -71,7 +75,7 @@
     height: 100%;
 }
 
-.report>.top{
+.report>.top {
     display: flex;
     flex-direction: row;
     gap: 25px;
@@ -106,19 +110,25 @@
         width: 300px;
     }
 
-    .card>.top>.details{
+    .card>.top>.details {
         display: block;
     }
-    
+
     .report>.bottom {
         flex-direction: column;
         gap: 15px;
     }
 
-    .report>.top{
+    .report>.top {
+        display: flex;
         flex-direction: column;
+        align-items: start;
         gap: 25px;
         padding: 25px;
         padding-bottom: 50px;
-    }    
+    }
+}
+
+.active {
+    color: white;
 }
