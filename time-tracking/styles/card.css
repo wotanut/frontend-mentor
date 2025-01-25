@@ -20,6 +20,11 @@
     padding: 0;
 }
 
+.card>.top:hover {
+    background-color: hsl(226, 43%, 30%);
+    transition: 3s ease-in-out linear;
+}
+
 .card>.top>.head {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -84,6 +89,10 @@
     align-items: center;
 }
 
+.report>.top:hover {
+    background-color: var(--clr-violet);
+}
+
 .report>.bottom {
     display: flex;
     padding: 25px;
@@ -99,10 +108,6 @@
 
 .timeframe {
     color: gray;
-}
-
-.timeframe:hover {
-    color: white;
 }
 
 @media screen and (min-width: 1440px) {
@@ -131,4 +136,9 @@
 
 .active {
     color: white;
+}
+
+.timeframe:hover {
+    color: white;
+    transition: 1s ease-in-out linear;
 }
