@@ -1,0 +1,32 @@
+/* The file related to laying out all the cards */
+
+.cards {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    display: grid;
+    grid-template-areas: 
+        'Report' 
+        'Work' 
+        'Play' 
+        'Study' 
+        'Excercise' 
+        'Social' 
+        'Care';
+    align-content: center;
+    grid-gap: 25px;
+    justify-content: center;
+    height: 100%;
+}
+
+.report {
+    grid-area: Report;
+}
+
+@media screen and (min-width: 1440px) {
+    .cards {
+        padding: 0;
+        grid-template-areas:
+        'Report Work Play Study'
+        'Report Excercise Social Care';
+    }
+}

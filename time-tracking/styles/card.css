@@ -1,0 +1,144 @@
+.elips {
+    justify-self: end;
+    color: white;
+}
+
+.card>.top {
+    padding: 25px;
+    background-color: var(--dark-blue);
+    border-radius: 20px;
+}
+
+.card {
+    height: min-content;
+    display: grid;
+    grid-template-rows: min-content min-content;
+    border-radius: 25px;
+    width: 50vw;
+    background-color: var(--clr-orange);
+    gap: 0px;
+    padding: 0;
+}
+
+.card>.top:hover {
+    background-color: hsl(226, 43%, 30%);
+    transition: 3s ease-in-out linear;
+}
+
+.card>.top>.head {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.play {
+    background-color: var(--clr-blue);
+}
+
+.study {
+    background-color: var(--clr-red);
+}
+
+.social {
+    background-color: var(--clr-violet);
+}
+
+.care {
+    background-color: var(--clr-yellow);
+}
+
+.excercise {
+    background-color: var(--clr-lime);
+}
+
+.card>.icon-container {
+    display: flex;
+    /* background-color: var(--clr-orange); */
+    justify-content: end;
+    height: min-content;
+    margin: 0;
+    overflow: hidden;
+    align-items: flex-start;
+}
+
+.card>.icon-container>.icon {
+    height: 65%;
+    padding-right: 25px;
+    margin: 0;
+    margin-top: -15px;
+    margin-bottom: -15px;
+    min-height: 70px;
+    max-height: 70px;
+}
+
+.elips:hover {
+    cursor: pointer;
+}
+
+.report {
+    background-color: var(--dark-blue);
+    height: 100%;
+}
+
+.report>.top {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding: 25px;
+    background-color: var(--clr-violet);
+    align-items: center;
+}
+
+.report>.top:hover {
+    background-color: var(--clr-violet);
+}
+
+.report>.bottom {
+    display: flex;
+    padding: 25px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.avatar {
+    width: 64px;
+    border: solid 3px white;
+    border-radius: 100%;
+}
+
+.timeframe {
+    color: gray;
+}
+
+@media screen and (min-width: 1440px) {
+    .card {
+        width: 300px;
+    }
+
+    .card>.top>.details {
+        display: block;
+    }
+
+    .report>.bottom {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .report>.top {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 25px;
+        padding: 25px;
+        padding-bottom: 50px;
+    }
+}
+
+.active {
+    color: white;
+}
+
+.timeframe:hover {
+    color: white;
+    transition: 1s ease-in-out linear;
+}

@@ -1,0 +1,74 @@
+:root {
+    font-family: "Rubik", serif;
+
+    --clr-blue: hsl(246, 80%, 60%);
+    --clr-orange: hsl(15, 100%, 70%);
+    --clr-blue: hsl(195, 74%, 62%);
+    --clr-red: hsl(348, 100%, 68%);
+    --clr-lime: hsl(145, 58%, 55%);
+    --clr-violet: hsl(264, 64%, 52%);
+    --clr-yellow: hsl(43, 84%, 65%);
+
+    /* ### Neutral */
+
+    --very-dark-blue: hsl(226, 43%, 10%);
+    --dark-blue: hsl(235, 46%, 20%);
+    --Desaturated-blue: hsl(235, 45%, 61%);
+    --Pale-Blue: hsl(236, 100%, 87%);
+    /* ### Font
+
+- Family: [Rubik](https://fonts.google.com/specimen/Rubik)
+- Weights: 300, 400, 500 */
+}
+
+/* 
+- Mobile: 375px
+- Desktop: 1440px */
+
+html,
+body {
+    margin: 0;
+    background-color: var(--very-dark-blue);
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 32px;
+    padding-top: 20px;
+}
+
+h2 {
+    /* --Font-size: 18px (card titles e.g. Work, Play) **/
+    font-weight: 500;
+    font-size: 18px;
+}
+
+h3 {
+    font-weight: 300;
+    color: lightgrey;
+}
+
+@media screen and (min-width: 1440px) {
+    h1 {
+        font-weight: 300;
+        font-size: 64px;
+        padding-top: 20px;
+    }
+}
+
+button {
+    background: none;
+    border: none;
+    text-align: start;
+    font-size: 16px;
+}

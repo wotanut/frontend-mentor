@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Tracker</title>
+    <link rel="stylesheet" href="styles/root.css" />
+    <link rel="stylesheet" href="styles/layout.css" />
+    <link rel="stylesheet" href="styles/card.css" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+
+    <!-- JS -->
+    <script src="js/index.js"></script>
+  </head>
+  <body>
+    <section class="cards">
+      <article class="card report">
+        <div class="top">
+          <img src="images/image-jeremy.png" alt="Jeremey" class="avatar" />
+          <div class="text">
+            <h3>Report for</h3>
+            <h1 style="padding-top: 0px" class="name">Jeremy Robson</h1>
+          </div>
+        </div>
+        <div class="bottom">
+          <button id="daily" class="timeframe daily">Daily</button>
+          <button id="weekly" class="timeframe weekly active">Weekly</button>
+          <button id="monthly" class="timeframe monthly">Monthly</button>
+        </div>
+      </article>
+      <article class="card card-1 work">
+        <div class="icon-container">
+          <img class="icon" src="images/icon-work.svg" alt="" />
+        </div>
+        <div class="top">
+          <div class="head">
+            <h2>Work</h2>
+            <img class="elips" src="images/icon-ellipsis.svg" alt="" />
+          </div>
+          <div class="details">
+            <h1>32hrs</h1>
+            <h3>Last Week - 36hrs</h3>
+          </div>
+        </div>
+      </article>
+      <article class="card card-2 play">
+        <div class="icon-container">
+          <img class="icon" src="images/icon-play.svg" alt="" />
+        </div>
+        <div class="top">
+          <div class="head">
+            <h2>Play</h2>
+            <img class="elips" src="images/icon-ellipsis.svg" alt="" />
+          </div>
+          <div class="details">
+            <h1>10hrs</h1>
+            <h3>Last Week - 8hrs</h3>
+          </div>
+        </div>
+      </article>
+      <article class="card card-3 study">
+        <div class="icon-container">
+          <img class="icon" src="images/icon-study.svg" alt="" />
+        </div>
+        <div class="top">
+          <div class="head">
+            <h2>Study</h2>
+            <img class="elips" src="images/icon-ellipsis.svg" alt="" />
+          </div>
+          <div class="details">
+            <h1>4hrs</h1>
+            <h3>Last Week - 7hrs</h3>
+          </div>
+        </div>
+      </article>
+      <article class="card card-4 excercise">
+        <div class="icon-container">
+          <img class="icon" src="images/icon-exercise.svg" alt="" />
+        </div>
+        <div class="top">
+          <div class="head">
+            <h2>Excercise</h2>
+            <img class="elips" src="images/icon-ellipsis.svg" alt="" />
+          </div>
+          <div class="details">
+            <h1>4hrs</h1>
+            <h3>Last Week - 5hrs</h3>
+          </div>
+        </div>
+      </article>
+      <article class="card card-5 social">
+        <div class="icon-container">
+          <img class="icon" src="images/icon-social.svg" alt="" />
+        </div>
+        <div class="top">
+          <div class="head">
+            <h2>Social</h2>
+            <img class="elips" src="images/icon-ellipsis.svg" alt="" />
+          </div>
+          <div class="details">
+            <h1>5hrs</h1>
+            <h3>Last Week - 10hrs</h3>
+          </div>
+        </div>
+      </article>
+      <!-- Who needs self care anyway amirightlads smh-->
+      <article class="card card-6 care">
+        <div class="icon-container">
+          <img class="icon" src="images/icon-self-care.svg" alt="" />
+        </div>
+        <div class="top">
+          <div class="head">
+            <h2>Self Care</h2>
+            <img class="elips" src="images/icon-ellipsis.svg" alt="" />
+          </div>
+          <div class="details">
+            <h1>2hrs</h1>
+            <h3>Last Week - 2hrs</h3>
+          </div>
+        </div>
+      </article>
+    </section>
+  </body>
+</html>

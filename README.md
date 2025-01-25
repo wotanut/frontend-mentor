@@ -45,3 +45,7 @@ All the code I wrote for WSUK24 for module D. The files are avaialable in both t
 [D3](https://playgrounds.sambot.dev/d3)
 
 [D2](https://playgrounds.sambot.dev/d2)
+
+## [Time Tracking](https://playgrounds.sambot.dev/time-tracking)
+A timetracker built with plain CSS/HTML/JS and a json file
+- [View on frontendmentor](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw)
