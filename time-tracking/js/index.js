@@ -17,6 +17,8 @@ function loadJSON(callback) {
     if (xobj.readyState == 4 && xobj.status == "200") {
       // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
       callback(xobj.responseText);
+    } else {
+      console.error("Failed to load JSON file:", xobj.statusText);
     }
   };
   xobj.send(null);
@@ -31,7 +33,18 @@ document.addEventListener("DOMContentLoaded", function () {
   loadJSON((response) => {
     // Parse JSON string into object
     actual_JSON = JSON.parse(response);
-    loadDetails("weekly");
+    try {
+      // Parse JSON string into object
+      actual_JSON = JSON.parse(response);
+      console.log("JSON loaded successfully:", actual_JSON);
+      if (actual_JSON.length > 0) {
+        loadDetails("weekly");
+      } else {
+        console.error("JSON is empty");
+      }
+    } catch (e) {
+      console.error("Failed to parse JSON:", e);
+    }
   });
 
   daily.onclick = function () {
