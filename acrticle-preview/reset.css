@@ -1,0 +1,22 @@
+/* Remove all margin from everything */
+
+* {
+    margin: 0;
+    line-height: calc(1em + 0.5rem);
+    overflow-wrap: break-word;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+/* If the images has a width greater than 100% uncomment this */
+img.oversized {
+    max-width: revert;
+}

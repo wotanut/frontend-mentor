@@ -1,5 +1,8 @@
 # Playgrounds
 
+## [Loading](https://playgrounds.sambot.dev/article-preview/)
+A CSS only article preview card with a tooltip.
+
 ## [Loading](https://playgrounds.sambot.dev/loading/)
 A simple loading animation I made using keyframes.
 
