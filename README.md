@@ -1,6 +1,6 @@
 # Playgrounds
 
-## [Loading](https://playgrounds.sambot.dev/article-preview/)
+## [article-preview](https://playgrounds.sambot.dev/article-preview/)
 A CSS only article preview card with a tooltip.
 
 ## [Loading](https://playgrounds.sambot.dev/loading/)
