@@ -50,7 +50,6 @@ a:visited {
   display: grid;
   border-radius: 10px;
   grid-template-areas: "one two";
-  grid-auto-columns: min-content;
   background-color: var(--White);
 }
 
@@ -103,11 +102,14 @@ h1 {
 }
 
 .product-image {
-  height: 60vh;
-  object-fit: contain;
-  grid-area: one;
+  max-width: 100%;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+}
+
+.image-div {
+  grid-area: one;
+  border-top-left-radius: 10px;
 }
 
 .price-full {
@@ -117,8 +119,10 @@ h1 {
 
 .product-text {
   grid-area: two;
-  width: 27vw;
   padding: 20px;
+  /* width: 500px; */
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 900px) {
@@ -135,10 +139,12 @@ h1 {
     width: auto;
   }
 
-  .product-image-mobile {
-    display: block;
+  .image-div {
     grid-area: one;
-    width: 50vw;
+  }
+
+  .product-image-mobile {
+    display: inline;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
   }
